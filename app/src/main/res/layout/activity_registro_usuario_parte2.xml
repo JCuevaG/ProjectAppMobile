@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".registro_usuario_parte2"
+    android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:orientation="vertical"
+            android:background="#4CE4B0"
+            android:layout_marginBottom="25dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Registro"
+                android:textSize="32dp"
+                android:textColor="@color/white"
+                android:layout_marginLeft="25dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <EditText
+                android:id="@+id/editTextTextEmailAddress"
+                android:layout_width="350dp"
+                android:layout_height="55dp"
+                android:ems="10"
+                android:hint="Correo electrónico"
+                android:background="@drawable/caja_registro"
+                android:inputType="textEmailAddress" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:orientation="vertical"
+            android:gravity="center">
+
+                <EditText
+                    android:id="@+id/editTextTextPassword2"
+                    android:layout_width="350dp"
+                    android:layout_height="55dp"
+                    android:ems="10"
+                    android:hint="Contraseña"
+                    android:background="@drawable/caja_registro"
+                    android:inputType="textPassword" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:orientation="vertical"
+            android:gravity="center">
+
+                <EditText
+                    android:id="@+id/editTextText"
+                    android:layout_width="350dp"
+                    android:layout_height="55dp"
+                    android:ems="10"
+                    android:hint="Nombres"
+                    android:background="@drawable/caja_registro"
+                    android:inputType="text"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:orientation="vertical"
+            android:gravity="center">
+
+                <EditText
+                    android:id="@+id/editTextNumber"
+                    android:layout_width="350dp"
+                    android:layout_height="55dp"
+                    android:ems="10"
+                    android:hint="DNI"
+                    android:background="@drawable/caja_registro"
+                    android:inputType="number" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:orientation="vertical"
+            android:gravity="center">
+
+                <EditText
+                    android:id="@+id/editTextDate"
+                    android:layout_width="350dp"
+                    android:layout_height="55dp"
+                    android:ems="10"
+                    android:hint="Fecha de nacimiento"
+                    android:background="@drawable/caja_registro"
+                    android:inputType="date" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:orientation="vertical"
+            android:gravity="center">
+
+                <EditText
+                    android:id="@+id/editTextPhone"
+                    android:layout_width="350dp"
+                    android:layout_height="55dp"
+                    android:ems="10"
+                    android:hint="Celular"
+                    android:background="@drawable/caja_registro"
+                    android:inputType="phone" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:orientation="vertical"
+            android:gravity="center">
+
+                <Button
+                    android:id="@+id/btnAcpetar"
+                    android:layout_width="350dp"
+                    android:layout_height="55dp"
+                    android:background="@drawable/boton_login"
+                    android:text="Aceptar" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:orientation="vertical"
+            android:gravity="center">
+
+                <Button
+                    android:id="@+id/btnVolver"
+                    android:layout_width="350dp"
+                    android:layout_height="55dp"
+                    android:text="Volver" />
+
+        </LinearLayout>
+
+</LinearLayout>
